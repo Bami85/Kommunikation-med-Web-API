@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 350px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    opacity: 70%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#createBtn{
+    margin: 20px 20px;
+
+}
+
+#collectBtn{
+
+    margin: 20px 20px;
+
+
+}

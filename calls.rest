@@ -1,0 +1,24 @@
+
+// Get all cocktails
+GET http://localhost:4000/cocktail
+
+
+###
+
+
+// Add a  new cocktail
+POST http://localhost:4000/cocktail
+Content-Type: application/json
+
+{
+   
+    "Name": "Test cocktail",
+    "Ingredient": " Something sweet"
+}
+
+
+###
+
+
+
+
